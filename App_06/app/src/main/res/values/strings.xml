@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">App_06</string>
+    <string-array name="groups">
+        <item>BTS</item>
+        <item>EXO</item>
+        <item>DAY6</item>
+        <item>ATEEZ</item>
+        <item>SKZ</item>
+    </string-array>
+</resources>
