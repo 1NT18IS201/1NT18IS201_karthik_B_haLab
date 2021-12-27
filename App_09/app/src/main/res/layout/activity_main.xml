@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BFB6CF"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:singleLine="false"
+        android:textSize="30dp"></EditText>
+
+    <EditText
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:hint="Contact"
+        android:inputType="number"
+        android:textSize="30dp"></EditText>
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contact"
+        android:hint="Age"
+        android:inputType="number"
+        android:textSize="30dp"></EditText>
+
+    <Button
+        android:id="@+id/btnInsert"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/age"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="@color/purple_500"
+        android:text="Insert"
+        android:textSize="24dp"></Button>
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnInsert"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="26dp"
+        android:backgroundTint="@color/purple_500"
+        android:text="Update"
+        android:textSize="24dp"></Button>
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnUpdate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="@color/purple_500"
+        android:text="Delete"
+        android:textSize="24dp"></Button>
+
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnDelete"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/purple_500"
+        android:text="View"
+        android:textSize="24dp"></Button>
+
+    <EditText
+        android:id="@+id/sal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:ems="10"
+        android:hint="Salary"
+        android:inputType="number"
+        android:textSize="30dp" />
+</RelativeLayout>
